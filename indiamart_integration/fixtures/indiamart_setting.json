@@ -1,0 +1,42 @@
+{
+ "doctype": "DocType",
+ "name": "IndiaMart Setting",
+ "module": "IndiaMart Integration",
+ "custom": 1,
+ "fields": [
+  {
+   "fieldname": "url",
+   "fieldtype": "Data",
+   "label": "URL",
+   "reqd": 1
+  },
+  {
+   "fieldname": "key",
+   "fieldtype": "Data",
+   "label": "Key",
+   "reqd": 1
+  },
+  {
+   "fieldname": "last_api_call_time",
+   "fieldtype": "Datetime",
+   "label": "Last API Call Time"
+  },
+  {
+   "fieldname": "retry_count",
+   "fieldtype": "Int",
+   "label": "Retry Count",
+   "default": "0"
+  }
+ ],
+ "permissions": [
+  {
+   "role": "System Manager",
+   "read": 1,
+   "write": 1,
+   "create": 1,
+   "delete": 1
+  }
+ ],
+ "issingle": 1,
+ "autoname": "IndiaMart Setting"
+}

@@ -1,0 +1,11 @@
+Metadata-Version: 2.2
+Name: indiamart_integration
+Version: 0.0.1
+Summary: Indiamart Integration
+Author: Bhavesh Maheshwari
+Author-email: maheshwaribhavesh95863@gmail.com
+Requires-Dist: frappe
+Dynamic: author
+Dynamic: author-email
+Dynamic: requires-dist
+Dynamic: summary
